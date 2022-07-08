@@ -5,24 +5,24 @@ import Proj3 from "../img/Proj3.png"
 
 export const ProjectList = [
   {
-    name: "Google Clone",
+    name: "CRM App",
+    image: Proj3,
+    skills: "React, JavaScript,React Router v6,Material UI, BootStrap",
+    sourcecode: "https://github.com/amareshkar101/crm-app",
+    livedemo: "https://amareshkar101-makes-great-sites.netlify.app/"
+  },
+  {
+    name: "Google Search Engine Clone",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "React, JavaScript,React Context API,React Router v6,Material UI",
     sourcecode: "https://github.com/amareshkar101/google-clone",
-    livedemo: "https://melodious-bonbon-6c7744.netlify.app/"
+    livedemo: "https://the-awesome-amareshkar101-site.netlify.app/"
   },
   {
     name: "Amazon Clone",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "React, JavaScript,React Context API,React Router v6,Firebase,Material UI",
     sourcecode: "https://github.com/amareshkar101/amazon-clone",
-    livedemo: "https://clone-2e46e.web.app/"
-  },
-  {
-    name: "CRM App",
-    image: Proj3,
-    skills: "React",
-    sourcecode: "https://github.com/amareshkar101/crm-app",
-    livedemo:"https://aesthetic-sherbet-0a2ce7.netlify.app/"
+    livedemo:"https://clone-2e46e.web.app/"
   }
 ];

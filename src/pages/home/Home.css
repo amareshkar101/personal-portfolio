@@ -16,6 +16,14 @@
     justify-content: center;
 }
 
+.resume{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 21px;
+    
+}
+
 .i-right {
     flex: 1;
     position: relative;

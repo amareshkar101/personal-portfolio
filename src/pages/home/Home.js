@@ -4,6 +4,10 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
+import ScrollToTop from "react-scroll-to-top";
+// import GetAppIcon from '@material-ui/icons/GetApp';
+import Resume from "../../img/Amaresh_Resume.pdf"
+import { saveAs } from "file-saver";
 import "./Home.css"
 
 function Home() {
@@ -20,8 +24,27 @@ function Home() {
   //   window.location.href ="https://twitter.com/theamareshkar"
   // }
 
+// const pdfGenerate=()=>{
+
+//   const doc = new jsPDF();
+
+//   doc.addImage(Resume,'PNG',0,0,100,100)
+//   doc.addPage()
+//   // doc.text("Hello",10,10)
+//   doc.save("resume.pdf")
+// }
+
+const saveFile =()=>{
+  saveAs(
+    Resume,
+    "amaresh_resume.pdf"
+  );
+}
+
+
   return (
     <div className='home'>
+      <ScrollToTop smooth top={50} width="20" height="20" viewBox="50 0 280 325" />
       <div className='i'>
 
         <div className='i-left'>
@@ -76,6 +99,16 @@ function Home() {
                 </button>
               </a>
 
+              &nbsp;
+              &nbsp;
+
+              <div style={{textAlign:'center'}} >
+                <button className='resume' onClick={saveFile} >
+                  {/* <GetAppIcon /> */}
+                  Download Resume
+                </button>
+                </div>
+               
             </div>
 
           </div>
@@ -94,7 +127,7 @@ function Home() {
         <h1> Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2> Front-End</h2>
+            <h2> Front-End Development</h2>
             <span>
               JavaScript, React JS, Redux, HTML, CSS, NPM,
               BootStrap, Material UI, Git, Github

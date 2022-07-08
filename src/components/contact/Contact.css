@@ -3,6 +3,13 @@
     position: relative;
   }
   
+  .c-bg-top{
+    width: 100%;
+    height: 20px;
+    background-color: blueviolet;
+    position: absolute;
+  }
+
   .c-bg {
     width: 20px;
     height: 100%;
