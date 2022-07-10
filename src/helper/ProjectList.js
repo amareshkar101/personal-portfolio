@@ -16,7 +16,7 @@ export const ProjectList = [
     image: Proj1,
     skills: "React, JavaScript,React Context API,React Router v6,Material UI",
     sourcecode: "https://github.com/amareshkar101/google-clone",
-    livedemo: "https://the-awesome-amareshkar101-site.netlify.app/"
+    livedemo: "https://tranquil-sherbet-afc150.netlify.app/"
   },
   {
     name: "Amazon Clone",
